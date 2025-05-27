@@ -19,3 +19,9 @@ add ollama chat model
 http://ollama:11434/
 
 ![ollama](imgs/ollama.png)
+
+![model](imgs/model.png)
+
+## testing
+
+![testing](imgs/testing.png)
