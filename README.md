@@ -25,3 +25,17 @@ http://ollama:11434/
 ## testing
 
 ![testing](imgs/testing.png)
+
+# Using deepseek as a API
+
+create HTTP request node
+
+http://ollama:11434/api/chat
+
+```json
+{
+  "model": "deepseek-r1:1.5b",
+  "messages": [{ "role": "user", "content": "Solve: 25 * 25" }],
+  "stream": false
+}
+```
