@@ -2,13 +2,16 @@
 
 run docker compose up
 
-download ollama
 
-https://ollama.com/download/windows
+pull deepseek so n8n can understand model
 
-download deepseek so n8n can understand model
+ollama pull deepseek-r1
 
-ollama run deepseek-r1:1.5b
+![pulldeepseek](imgs/pulldeepseek.png)
+
+See the model is in volume
+
+![volumedeepseek](imgs/volumedeepseek.png)
 
 # n8n
 
@@ -39,3 +42,7 @@ http://ollama:11434/api/chat
   "stream": false
 }
 ```
+
+## Reference:
+
+https://github.com/n8n-io/self-hosted-ai-starter-kit
