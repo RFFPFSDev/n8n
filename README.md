@@ -14,19 +14,30 @@ Now, you should be able to see the model in docker volume
 
 # n8n
 
+Access n8n workflow local website:
+
 http://localhost:5678/
 
-If you did step 2 (pull deepseek-r1), n8n should be contain deepseek-r1 in the list of models
+Create a new workflow:
+- Add "Chat Trigger node"
+- Add "AI Agent"
+- Add "Ollama Chat Model"
 
-add ollama chat model
+## Configure Ollama Chat Model
+
+Configure and test connection.
 
 http://ollama:11434/
 
 ![ollama](imgs/ollama.png)
 
+If you did step 2 [ollama pull deepseek-r1], n8n should contain deepseek-r1 in the list of models
+
 ![model](imgs/model.png)
 
-## testing
+## Run flow 
+
+Add a question/message in chat
 
 ![testing](imgs/testing.png)
 
