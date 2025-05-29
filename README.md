@@ -2,9 +2,9 @@
 
 ## 1 - Run docker compose up
 
-pull deepseek so n8n can understand model
-
 ## 2 - ollama pull deepseek-r1
+
+pull deepseek so n8n can understand model
 
 ![pulldeepseek](imgs/pulldeepseek.png)
 
