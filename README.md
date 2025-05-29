@@ -1,21 +1,22 @@
 # Configure
 
-run docker compose up
-
+## 1 - Run docker compose up
 
 pull deepseek so n8n can understand model
 
-ollama pull deepseek-r1
+## 2 - ollama pull deepseek-r1
 
 ![pulldeepseek](imgs/pulldeepseek.png)
 
-See the model is in volume
+Now, you should be able to see the model in docker volume
 
 ![volumedeepseek](imgs/volumedeepseek.png)
 
 # n8n
 
 http://localhost:5678/
+
+If you did step 2 (pull deepseek-r1), n8n should be contain deepseek-r1 in the list of models
 
 add ollama chat model
 
